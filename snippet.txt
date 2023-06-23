@@ -1,0 +1,11 @@
+<model-viewer src="USNM_74016_macro-100k-2048.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0.79" environment-image="Anime-Day-Equirect_4k.hdr" skybox-image="Anime-Day-Equirect_4k.hdr" exposure="1.04" auto-rotate>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
